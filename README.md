@@ -1,18 +1,6 @@
 
 # superans
 
-<div>
-  <h1 align="center">Getting Started with Flutter 🚀 </h1>
-  <strong>
-    Generated with ❤️ from Dhiwise
-  </strong>
-  <p>
-    This is the documentation of Flutter Applications.
-    It holds all the info you need to get started with
-    and make changes to your App
-  </p>
-</div>
-
 
 ### Table of Contents
 - [System Requirements](#system-requirements)
