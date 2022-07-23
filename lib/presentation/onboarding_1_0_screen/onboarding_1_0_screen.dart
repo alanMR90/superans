@@ -8,14 +8,14 @@ class Onboarding10Screen extends GetWidget<Onboarding10Controller> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: ColorConstant.gray50,
+        backgroundColor: ColorConstant.gray5075,
         body: Container(
           width: size.width,
           child: SingleChildScrollView(
             child: Container(
               margin: EdgeInsets.only(),
               decoration: BoxDecoration(
-                color: ColorConstant.gray50,
+                color: ColorConstant.gray5075,
               ),
               child: Column(
                 mainAxisSize: MainAxisSize.min,
@@ -41,7 +41,7 @@ class Onboarding10Screen extends GetWidget<Onboarding10Controller> {
                         ),
                       ),
                       child: Image.asset(
-                        ImageConstant.imgRectangle11,
+                        ImageConstant.imgRectangle1,
                         height: getVerticalSize(
                           267.00,
                         ),
@@ -97,7 +97,7 @@ class Onboarding10Screen extends GetWidget<Onboarding10Controller> {
                       "msg_te_ofrecemos_un".tr,
                       maxLines: null,
                       textAlign: TextAlign.center,
-                      style: AppStyle.textstylemulishromanregular16.copyWith(
+                      style: AppStyle.textstylemulishromanregular162.copyWith(
                         fontSize: getFontSize(
                           16,
                         ),
