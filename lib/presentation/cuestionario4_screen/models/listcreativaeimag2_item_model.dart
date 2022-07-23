@@ -1,0 +1,1 @@
+class Listcreativaeimag2ItemModel {}

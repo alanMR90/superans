@@ -33,10 +33,6 @@ flutter:
           weight: 400
         - asset: assets/fonts/mulishmulishromanbold700.ttf
           weight: 700
-    - family: Nunito
-      fonts: 
-        - asset: assets/fonts/nunitoregular400.ttf
-          weight: 400
     - family: Roboto Slab
       fonts: 
         - asset: assets/fonts/robotoslabsemibold600.ttf

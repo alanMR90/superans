@@ -1,0 +1,1 @@
+class Listanalticaymat1ItemModel {}

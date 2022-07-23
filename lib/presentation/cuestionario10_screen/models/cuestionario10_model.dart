@@ -1,0 +1,1 @@
+class Cuestionario10Model {}
