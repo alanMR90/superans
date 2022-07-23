@@ -1,13 +1,14 @@
 import 'controller/splash_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:superans/core/app_export.dart';
+import 'package:superans/core/constants/dummy.dart';
 
 class SplashScreen extends GetWidget<SplashController> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-            backgroundColor: ColorConstant.gray50,
+            backgroundColor: ColorConstant.gray5075,
             body: Container(
                 width: size.width,
                 child: SingleChildScrollView(
@@ -17,7 +18,7 @@ class SplashScreen extends GetWidget<SplashController> {
                         },
                         child: Container(
                             decoration:
-                                BoxDecoration(color: ColorConstant.gray50),
+                                BoxDecoration(color: ColorConstant.gray5075),
                             child: Column(
                                 mainAxisSize: MainAxisSize.min,
                                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -48,6 +49,7 @@ class SplashScreen extends GetWidget<SplashController> {
   }
 
   onTapSplash() {
-    Get.toNamed(AppRoutes.onboarding10Screen);
+    Get.toNamed(AppRoutes.onboarding26Screen,
+        arguments: {NavigationArgs.test: Dummy.TEST});
   }
 }

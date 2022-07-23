@@ -1,0 +1,1 @@
+class Onboarding24Model {}

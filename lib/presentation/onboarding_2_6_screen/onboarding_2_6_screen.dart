@@ -7,14 +7,14 @@ class Onboarding26Screen extends GetWidget<Onboarding26Controller> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: ColorConstant.gray50,
+        backgroundColor: ColorConstant.gray5075,
         body: Container(
           width: size.width,
           child: SingleChildScrollView(
             child: Container(
               margin: EdgeInsets.only(),
               decoration: BoxDecoration(
-                color: ColorConstant.gray50,
+                color: ColorConstant.gray5075,
               ),
               child: Column(
                 mainAxisSize: MainAxisSize.min,
@@ -64,7 +64,7 @@ class Onboarding26Screen extends GetWidget<Onboarding26Controller> {
                       "msg_estamos_blabla".tr,
                       overflow: TextOverflow.ellipsis,
                       textAlign: TextAlign.center,
-                      style: AppStyle.textstylemulishromanregular16.copyWith(
+                      style: AppStyle.textstylemulishromanregular162.copyWith(
                         fontSize: getFontSize(
                           16,
                         ),
